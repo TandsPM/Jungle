@@ -45,6 +45,7 @@ gem 'faker'
 gem 'carrierwave'
 
 
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
