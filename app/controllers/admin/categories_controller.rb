@@ -1,15 +1,13 @@
 class Admin::CategoriesController < ApplicationController
-  # display list of all categories
+
   def index
     @categories = Category.all
   end
 
-  #display form for creating a new category
   def new
     @categories = Category.new
   end
 
-  # Handle the created of a new category
   def create
     @categories = Category.new(category_params)
 
