@@ -12,6 +12,6 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 ## Getting Started
 
 - Install all dependencies (using the `npm install` command).
-- Run the development web server using the `npm start` command in terminal.
+- Run the development web server using the `bin/rails s -b 0.0.0.0` command in terminal.
 
 
